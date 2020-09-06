@@ -1,5 +1,5 @@
-FROM certbot/certbot:v1.6.0
-MAINTAINER Sven Knispel <sven.knispel@pwc.com>
+FROM certbot/certbot:v1.7.0
+MAINTAINER Sven Knispel <sven.knispel@gmail.com>
 
 #RUN mkdir /etc/letsencrypt
 RUN apk add python3 curl
